@@ -9,9 +9,9 @@
  */
 angular.module('kitchensinkApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+     $scope.template = {
+        "sidebar": "Sidebar/sidebar.html",
+      };
+
+    
   });
